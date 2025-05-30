@@ -1,4 +1,4 @@
-# The Complete 2023 Web Development Bootcamp by App Brewery
+# Web Development Bootcamp by App Brewery
 
 This repository contains all the projects, exercises, and notes from **The Complete 2023 Web Development Bootcamp** by [Dr. Angela Yu](https://www.appbrewery.com/) on Udemy.
 
@@ -116,8 +116,4 @@ Use this checklist to track your progress through the course:
 
 #### Throughout the course, I’ll be adding:
 
-Notes and summaries
-
-Links to documentation or tools
-
-Observations and lessons learned
+Notes and summaries, links to documentation or tools and observations and lessons learned will be `inside the respective folder`.
