@@ -1,119 +1,90 @@
-# Web Development Bootcamp by App Brewery
+# The Complete Web Development Bootcamp
 
-This repository contains all the projects, exercises, and notes from **The Complete 2023 Web Development Bootcamp** by [Dr. Angela Yu](https://www.appbrewery.com/) on Udemy.
+This repository contains all the projects and files developed during **The Complete 2023 Web Development Bootcamp** by **Angela Yu**.
 
-## 🎯 Course Goal
+## 📚 Course Structure
 
-To master full-stack web development using the latest technologies and build real-world, fully functional web applications.
+### Module 1: Front-End Development
+- 01. Front-End Web Development ✅
+- 02. Introduction to HTML
+- 03. Intermediate HTML
+- 04. Multi-Page Websites
+- 05. Introduction to CSS
+- 06. CSS Properties
+- 07. Intermediate CSS
+- 08. Advanced CSS
+- 09. Flexbox
+- 10. Grid
+- 11. Bootstrap
+- 12. Web Design School - Create a Website that People Love
 
-## 🧰 Technologies and Tools
+### 🚀 Capstone Project
+- 13. Capstone Project 2 - Personal Site
 
-### Front-end
+### Module 2: JavaScript
+- 14. Introduction to Javascript ES6
+- 15. Intermediate Javascript
+- 16. The Document Object Model (DOM)
+- 17. Boss Level Challenge 1 - The Dicee Game
+- 18. Advanced Javascript and DOM Manipulation
+- 19. jQuery
+- 20. Boss Level Challenge 2 - The Simon Game
+
+### Module 3: Back-End Development
+- 21. The Unix Command Line
+- 22. Backend Web Development
+- 23. Node.js
+- 24. Express.js with Node.js
+- 25. APIs - Application Programming Interfaces
+- 26. Git, Github and Version Control
+- 27. EJS
+- 28. Boss Level Challenge 3 - Blog Website
+
+### Module 4: Databases
+- 29. Databases
+- 30. SQL
+- 31. MongoDB
+- 32. Mongoose
+
+### Module 5: Web Applications
+- 33. Putting Everything Together
+- 34. Deploying Your Web Application
+- 35. Boss Level Challenge 4 - Blog Website Upgrade
+- 36. Build Your Own RESTful API From Scratch
+- 37. Authentication & Security
+
+### Module 6: Web3 and Blockchain Development
+- 38. React.js
+- 39. Web3 Decentralised App (DApp) Development with the Internet Computer
+- 40. Build Your First Defi (Decentralised Finance) DApp - DBANK
+- 41. Deploying to the ICP Live Blockchain
+- 42. Building DApps on ICP with a React Frontend
+- 43. Create Your Own Crypto Token
+- 44. Minting NFTs and Building an NFT Marketplace like OpenSea
+
+### Extra Module
+- 45. Optional Module - Ask Angela Anything
+
+### Final Section
+- 46. Next Steps
+
+---
+
+## 🛠️ Technologies Used
+
 - HTML5, CSS3, Flexbox, Grid
-- Bootstrap
-- JavaScript (ES6+)
-- DOM Manipulation
-- jQuery
-
-### Back-end
-- Node.js, Express.js
-- MongoDB, Mongoose
-- EJS templating
-
-### Other Topics
-- Git & GitHub
+- JavaScript (ES6), jQuery, DOM
+- Node.js, Express.js, EJS
+- MongoDB, Mongoose, SQL
+- Git, GitHub
 - RESTful APIs
-- Authentication (OAuth 2.0, Sessions, Cookies)
-- Deployment with Heroku
+- React.js
+- Blockchain / Web3 / NFT / ICP
 
-## ✅ Course Progress
+## 📌 Notes
 
-Use this checklist to track your progress through the course:
+This repository is intended for educational purposes only. All projects and code were developed during the course to reinforce practical learning.
 
-- [ ] Section 1: Introduction
-- [ ] Section 2: Front-End Web Development
-- [ ] Section 3: HTML
-- [ ] Section 4: HTML Intermediate
-- [ ] Section 5: CSS
-- [ ] Section 6: CSS Intermediate + Grid, Flexbox
-- [ ] Section 7: Bootstrap
-- [ ] Section 8: Web Design
-- [ ] Section 9: Capstone Project 1 - Personal Site
-- [ ] Section 10: JavaScript
-- [ ] Section 11: JavaScript Intermediate
-- [ ] Section 12: The Document Object Model (DOM)
-- [ ] Section 13: Advanced JavaScript and DOM
-- [ ] Section 14: Capstone Project 2 - Dice Game
-- [ ] Section 15: jQuery
-- [ ] Section 16: Advanced Front-End
-- [ ] Section 17: Boss Level Challenge 1
-- [ ] Section 18: The Unix Command Line
-- [ ] Section 19: Backend Web Development
-- [ ] Section 20: Node.js
-- [ ] Section 21: Express.js
-- [ ] Section 22: APIs - Application Programming Interfaces
-- [ ] Section 23: Build Your Own API
-- [ ] Section 24: Capstone Project 3 - Newsletter Signup
-- [ ] Section 25: Git, GitHub, and Version Control
-- [ ] Section 26: Introduction to Databases and MongoDB
-- [ ] Section 27: Mongoose
-- [ ] Section 28: Capstone Project 4 - To-Do List App
-- [ ] Section 29: Deploying Your Web App
-- [ ] Section 30: Authentication and Security
-- [ ] Section 31: React.js Introduction
-- [ ] Section 32: React.js Continued
-- [ ] Section 33: Keeper App Project (React)
-- [ ] Section 34: Redux
-- [ ] Section 35: Web3 and Smart Contracts (Intro)
-- [ ] Section 36: Final Capstone Project - Blog Website with Full-Stack Features
-- [ ] Section 37: Next Steps and Career Advice
+---
 
-## 🗂 Folder Structure
-
-```bash
-📁 web-dev-bootcamp-appbrewery/
-├── 📁 Section_01_Introduction/
-├── 📁 Section_02_FrontEnd/
-├── 📁 Section_03_HTML/
-├── 📁 Section_04_HTML_Intermediate/
-├── 📁 Section_05_CSS/
-├── 📁 Section_06_CSS_Intermediate/
-├── 📁 Section_07_Bootstrap/
-├── 📁 Section_08_Web_Design/
-├── 📁 Section_09_Capstone_Personal_Site/
-├── 📁 Section_10_JavaScript_Basics/
-├── 📁 Section_11_JavaScript_Intermediate/
-├── 📁 Section_12_DOM/
-├── 📁 Section_13_Advanced_JavaScript/
-├── 📁 Section_14_Capstone_Dice_Game/
-├── 📁 Section_15_jQuery/
-├── 📁 Section_16_Advanced_Frontend/
-├── 📁 Section_17_Boss_Level_Challenge_1/
-├── 📁 Section_18_Unix_Command_Line/
-├── 📁 Section_19_Backend_Intro/
-├── 📁 Section_20_NodeJS/
-├── 📁 Section_21_ExpressJS/
-├── 📁 Section_22_APIs/
-├── 📁 Section_23_Build_Your_Own_API/
-├── 📁 Section_24_Capstone_Newsletter_Signup/
-├── 📁 Section_25_Git_GitHub/
-├── 📁 Section_26_MongoDB_Intro/
-├── 📁 Section_27_Mongoose/
-├── 📁 Section_28_Capstone_ToDo_List/
-├── 📁 Section_29_Deployment/
-├── 📁 Section_30_Authentication/
-├── 📁 Section_31_React_Intro/
-├── 📁 Section_32_React_Advanced/
-├── 📁 Section_33_Keeper_App_Project/
-├── 📁 Section_34_Redux/
-├── 📁 Section_35_Web3_Intro/
-├── 📁 Section_36_Final_Capstone_Blog_Project/
-├── 📁 Section_37_Career_Advice/
-├── 📝 README.md
-```
-
-## 📝 Personal Notes
-
-#### Throughout the course, I’ll be adding:
-
-Notes and summaries, links to documentation or tools and observations and lessons learned will be `inside the respective folder`.
+**Developed with 💻 by Gustavo-Zamai**
