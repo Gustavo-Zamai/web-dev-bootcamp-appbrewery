@@ -1,0 +1,18 @@
+Relative:
+    - Position relative to default position;
+    position: relative;
+    - move with, left, right, top, bottom;
+    - relative to where it`s supposed to be;
+
+Absolute:
+    - Position relative to nearest ancestor positioned or top left corner of webpage;
+    - ancestor has to be {position: relative}, or will be the second rule;
+    - Z-index: which element will on top. Z-index default is 0;
+
+Fixed:
+    - Position relative to top left corner of browser;
+    - Doesnt change position even if you scroll the page;
+
+Static Positioning:
+    - HTML default flow;
+    - One in top of other;
