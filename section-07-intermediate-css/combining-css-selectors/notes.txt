@@ -1,0 +1,37 @@
+<div class="box inner-box">
+    <p>White Text</p>
+</div>
+
+Combining css selectors to change the text color:
+.inner-box p {
+    color: white;
+}
+
+Select all selectors p, inside the class inner-box.
+
+Difference to combine
+
+- Group: separate with coma(,), can add many selectors and apply the same style to them
+selector, selector {
+    color: value;
+}
+
+- Child: select a level down child. Apply to direct child of left side
+selector > selector {
+    color: firebrick;
+}
+
+- Descendant: apply the style to a descendant of left side, separate with space ( ). Could be a grandson, or further.
+selector(ancestor) selector(descendant) {
+    color: blue;
+}
+
+- Chaining: apply where all are true, super specific selector> Ex: h1#title.big.heading. Always starts with element, if want to specify with a element
+selectorselector {
+    color: seagreen;
+}
+
+- Combining Combiners: 
+selector selectorselector {
+    font-size: 2rem;
+}
