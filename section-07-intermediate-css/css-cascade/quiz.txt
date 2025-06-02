@@ -1,0 +1,30 @@
+1. <h1 class="a-class" id="an-id"> Hello </h1>
+.a-class {
+    color: blue;
+}
+#an-id {
+    color:green;
+}
+
+A: The text will be in green, cause id it`s more specific than a class.
+
+2. <h1 class="a-class another-class"> Hello </h1>
+.a-class {
+    color:green;
+}
+.another-class {
+    color:blue;
+}
+
+A: Text will be blue, cause both have the same specificity, so it pick the last one.
+
+3.  <html lang="en">
+    <head>
+        <style>#an-id{color: green}</style>
+    </head>
+        <body>
+            <h1 id="an-id" style="color: blue;"> Hello </h1>
+        </body>
+    </html>
+
+A: Text will be blue, cause inline is ahead of tag <styel> or a external file.

@@ -1,0 +1,5 @@
+The specificity for a CSS begins with:
+    - Position -- reads top from the bottom, where bottom has more importance;
+    - Specificity -- compare if just seletor, or a class, on an id, etc;
+    - Type -- if it`s external link, inside <style> tag or inline;
+    - Importance -- Tag !important, after seletor with blank space.
