@@ -1,0 +1,223 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+h1 {
+  font-size: 5rem;
+  width: 800px;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  clear: both;
+}
+
+/* Code of project */
+
+div span {
+    color: midnightblue;
+}
+
+.card {
+  width: 800px;
+}
+
+.title-image {
+  height: 250px;
+  width: 350px;
+  float: left;
+}
+
+.left .title-image {
+    margin-right: 2rem;
+}
+
+.right .title-image {
+    margin-right: 2rem;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.card > p,
+.card > h2 {
+  margin-right: 2rem;
+}
+
+/* Media Queries */
+@media (min-width: 1281px) and (max-width: 1600px) {
+    body{
+        margin: 25px 25px 0 25px;
+    }
+
+    .card {
+        width: 600px;
+      }
+      
+      .title-image {
+        height: 250px;
+        width: 300px;
+        float: left;
+      }
+      
+      .left .title-image {
+          margin-right: 1rem;
+      }
+      
+      .right .title-image {
+          margin-right: 1rem;
+      }
+      
+      .left {
+        float: left;
+      }
+      
+      .right {
+        float: right;
+      }
+      
+      .card > p,
+      .card > h2 {
+        margin-right: 1rem;
+      }
+}
+
+@media (min-width: 931px) and (max-width: 1280px) {
+    h1 {
+        font-size: 4rem;
+        width: 600px;
+      }
+
+    .card {
+        width: 400px;
+      }
+      
+      .title-image {
+        height: 200px;
+        width: 300px;
+        float: left;
+      }
+      
+      .left .title-image {
+          margin-right: 1rem;
+      }
+      
+      .right .title-image {
+          margin-right: 1rem;
+      }
+      
+      .left {
+        float: left;
+      }
+      
+      .right {
+        float: right;
+      }
+      
+      .card > p,
+      .card > h2 {
+        margin-right: 0;
+      }
+}
+
+@media (min-width:695px) and (max-width: 930px) {
+
+    h1 {
+        font-size: 3rem;
+        width: 600px;
+        text-align: center;
+      }
+
+    .card {
+        width: 100%;
+        display: block;
+      }
+      
+      .title-image {
+        height: 150px;
+        width: 250px;
+        float: left;
+        margin-top: 1rem;
+      }
+      
+      .left .title-image {
+          margin-right: .5rem;
+      }
+      
+      .right .title-image {
+          margin-right: .5rem;
+      }
+      
+      .left {
+        float: left;
+      }
+      
+      .right {
+        float: right;
+      }
+      
+      .card > p,
+      .card > h2 {
+        margin-right: 0;
+      }
+}
+
+@media (min-width:340px) and (max-width: 694px) {
+
+    h1 {
+        font-size: 2rem;
+        width: 100%;
+        text-align: center;
+      }
+
+    .card {
+        width: 100%;
+        display: block;
+      }
+      
+      .title-image {
+        height: 300px;
+        width: 100%;
+        display: block;
+      }
+      
+      .left .title-image {
+          margin-right: 1rem;
+      }
+      
+      .right .title-image {
+          margin-right: 1rem;
+      }
+      
+      .left {
+        clear: left;
+      }
+      
+      .right {
+        clear: right;
+      }
+      
+      .card > p,
+      .card > h2 {
+        margin-right: 0;
+        font-size: .9rem;
+      }
+
+      footer > p {
+        font-size: .8rem;
+      }
+}
